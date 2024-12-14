@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"m":"org.fileanalyzer.gradlekursach","l":"org.fileanalyzer.gradlekursach"}];updateSearchResults();
