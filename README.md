@@ -4,11 +4,12 @@
 ## Особенности
 - Анализ выбранного каталога с выведением размера в байтах, даты создания, владельца и названия каталогов, подкаталогов, файлов.
 - Базовый графический интерфейс с использованием библиотеки JavaFX.
-- Функционал логирования, реализованный посредством библиотеки log4j (Логи выводятся в консоль и .log файл в том же каталоге, где была запущена программа).
+- Функционал логгирования, реализованный посредством библиотеки log4j (Логи выводятся в консоль и .log файл в том же каталоге, где была запущена программа).
 - Реализована основная документация при помощи JavaDoc, приложена в соответствующей папке в структуре проекта.
 ## Информация
 - Создано с использованием JDK 21 версии.
 - .jar файл создан при помощи ShadowJar, уже содержит внутри все необходимые зависимости, при запуске не требуется указывать на компоненты JavaFX.
+- Использован JavaFX версии 21.0.5.
 # EN
 An application for basic analysis of a file system created in Java programming language. Developed as part of a university course project.
 ## Features
@@ -19,3 +20,4 @@ An application for basic analysis of a file system created in Java programming l
 ## Information
 - Made using JDK version 21.
 - .jar file was made using ShadowJar, so it already has the necessary dependencies, when launching you do not need to enter any VM options showing the path to JavaFX module.
+- Used JavaFX version 21.0.5.
