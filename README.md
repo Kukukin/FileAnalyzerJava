@@ -8,8 +8,8 @@
 - Реализована основная документация при помощи JavaDoc, приложена в соответствующей папке в структуре проекта.
 ## Информация
 - Создано с использованием JDK 21 версии.
-- .jar файл создан при помощи ShadowJar, уже содержит внутри все необходимые зависимости, при запуске не требуется указывать на компоненты JavaFX.
-- Использован JavaFX версии 21.0.5.
+- .jar файл создан при помощи ShadowJar, уже содержит внутри все необходимые зависимости, при запуске не требуется указывать на компоненты JavaFX. Находится в /build/libs.
+- Использован JavaFX версии 21.0.5 для Windows.
 # EN
 An application for basic analysis of a file system created in Java programming language. Developed as part of a university course project.
 ## Features
@@ -19,5 +19,5 @@ An application for basic analysis of a file system created in Java programming l
 - Basic documentation made with JavaDoc, located in the folder in project structure.
 ## Information
 - Made using JDK version 21.
-- .jar file was made using ShadowJar, so it already has the necessary dependencies, when launching you do not need to enter any VM options showing the path to JavaFX module.
-- Used JavaFX version 21.0.5.
+- .jar file was made using ShadowJar, so it already has the necessary dependencies, when launching you do not need to enter any VM options showing the path to JavaFX module. .jar file is located in /build/libs folder.
+- Used JavaFX version 21.0.5 for Windows.
