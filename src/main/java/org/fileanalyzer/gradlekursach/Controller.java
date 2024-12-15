@@ -18,10 +18,7 @@ public class Controller {
      * приложения.
      */
     private static final Logger logger = LogManager.getLogger(Controller.class);
-    /**
-     * Метод для возможности просмотра содержимого
-     * каталогов в виде "дерева" с узлами.
-     */
+
     @FXML
     private TreeView<String> fileTreeView;
     /**
