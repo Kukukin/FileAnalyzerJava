@@ -9,9 +9,6 @@ import java.time.format.DateTimeParseException;
  * в понятный формат.
  */
 public class DateFormatter {
-    /**
-     * Метод, форматирующий дату под формат "yyyy-MM-dd HH:mm:ss".
-     */
     private static final DateTimeFormatter OUTPUT_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
     /**
      * Метод возвращающий время переведенное из ISO формата в LocalDateTime формат.
