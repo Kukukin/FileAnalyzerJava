@@ -1,0 +1,1 @@
+moduleSearchIndex = [{"l":"org.fileanalyzer.gradlekursach"}];updateSearchResults();
