@@ -79,7 +79,7 @@ jar {
 
 shadowJar {
     archiveBaseName = 'gradlekursach'
-    archiveVersion = '1.1'
+    archiveVersion = '1.1.0'
     manifest {
         attributes(
                 'Main-Class': 'org.fileanalyzer.gradlekursach.MainLauncher',
