@@ -4,7 +4,7 @@
 ## Особенности
 - Анализ выбранного каталога с выведением размера в байтах, даты создания, владельца и названия каталогов, подкаталогов, файлов.
 - Базовый графический интерфейс с использованием библиотеки JavaFX.
-- Функционал логгирования, реализованный посредством библиотеки log4j (Логи выводятся в консоль и .log файл в том же каталоге, где была запущена программа).
+- Функционал логгирования, реализованный посредством библиотеки log4j (Логи выводятся в консоль и .log файл в том же каталоге, где была запущена программа). Логи в консоли выводятся через кодировку Cp866, так что могут некорректно отображаться на МакОС и Линуксе, но лог файл использует UTF-8.
 - Реализована основная документация при помощи JavaDoc, приложена в соответствующей папке в структуре проекта.
 ## Информация
 - Создано с использованием JDK 21 версии.
@@ -15,7 +15,7 @@ An application for basic analysis of a file system created in Java programming l
 ## Features
 - Analysis of a chosen directory, showing it's size in bytes, creation time, it's owner and names of directories, subdirectories and files in it.
 - A basic GUI using JavaFX library.
-- Logging realised through log4j library (logs are displayed in CLI and in a .log file that is created in the same directory where you launch an app).
+- Logging realised through log4j library (logs are displayed in CLI and in a .log file that is created in the same directory where you launch an app). Console logs use Cp866 charset, so you might see incorrect symbols for MacOS and linux, .log file would be fine, since it uses UTF-8.
 - Basic documentation made with JavaDoc, located in the folder in project structure.
 ## Information
 - Made using JDK version 21.
